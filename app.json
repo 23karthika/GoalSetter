@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "GoalSetter",
+    "slug": "GoalSetter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/goal.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.karthika23.GoalSetter"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "94057206-07cd-4818-8f5f-09e40445e23a"
+      }
+    }
+  }
+}
